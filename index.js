@@ -22,7 +22,7 @@ function initRenderer() {
     renderer = new THREE.WebGLRenderer({
       canvas: document.querySelector("#model"),
       antialias: true,
-     
+     alpha:true
     });
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     renderer.setSize(window.innerWidth, window.innerHeight);
