@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Cyberpunk</title>
+  </head>
+  <body>
+    <div class="w-full">
+
+      <div class="nav px-4 fixed top-0 w-full  flex justify-between items-center">
+
+        
+        <img class=" w-[12vw]  mix-blend-screen filter saturate-150 contrast-125 shadow-none" src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1920&format=png&auto=webp&s=f42dbd8f5c04aedb9ba9291c1ba4d679029cc1f3" alt="" />
+
+        <ul class="flex space-x-6 text-white">
+          <li><a href="#home" class="hover:text-cyan-400 transition-colors">Home</a></li>
+          <li><a href="#games" class="hover:text-cyan-400 transition-colors">Games</a></li>
+          <li><a href="#characters" class="hover:text-cyan-400 transition-colors">Characters</a></li>
+          <li><a href="#news" class="hover:text-cyan-400 transition-colors">News</a></li>
+          <li><a href="#community" class="hover:text-cyan-400 transition-colors">Community</a></li>
+        </ul>
+      </div>
+
+      <div class="w-[40vw] absolute h-[40vw] blur-3xl  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  z-[-1] rounded-full bg-teal-400 bg-red-400 absolute">
+
+      </div>
+      <img class="absolute w-[80%] z-[20] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mix-blend-screen filter saturate-150 contrast-125 shadow-none" src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1920&format=png&auto=webp&s=f42dbd8f5c04aedb9ba9291c1ba4d679029cc1f3" alt="">
+      <div class="w-full h-screen overflow-hidden">
+        <canvas id="model"></canvas>
+      </div>
+
+    
+    </div>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
